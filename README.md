@@ -5,7 +5,7 @@ Demo of some readily available PHP Serializers.
 Serializers in PHP provide us with a structured way of replacing array-indexed assignments of values to structured data, with object oriented and separated handlers, akin to DataTransferObjects (DTO's) and DataValueTransformers, as they are commonly known to OOP-familiar developers.
 
 Serializers provide an SOLID-approach solution to ingesting and outputting structured data; Common data-structures, such as Date-values, and/or arrays-of-similar-data-values can be handled by some serializers by default, while specialization demands definitions of task-specific Normalizers.
-We will look at some flavors of these serializers, as most appropriate to our wokr at FFW.com...
+We will look at some flavors of these serializers, as most appropriate to our work at FFW.com...
 
 ## Select serializer flavors
 * Drupal 9 Serializers
