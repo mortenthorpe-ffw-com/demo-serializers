@@ -9,7 +9,7 @@ We will look at some flavors of these serializers, as most appropriate to our wo
 
 ## Select serializer flavors
 * Drupal 9 Serializers
-  * [A good explanation](https://www.drupal.org/docs/8/api/serialization-api/how-the-serializer-works))
+  * [A good explanation](https://www.drupal.org/docs/8/api/serialization-api/how-the-serializer-works)
   * Small Symfony-like [code snippets demo'ing the Drupal Serializers](https://www.drupal.org/docs/drupal-apis/serialization-api/serialization-api-overview)
 * [Symfony 6+ Serializers](https://symfony.com/doc/current/components/serializer.html)
 * [A more generic PHP-serializer](https://jmsyst.com/libs/serializer)
