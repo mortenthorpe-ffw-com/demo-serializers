@@ -1,0 +1,3 @@
+<?php //SerializeTestObj
+
+return [PHP_INT_MAX, []];

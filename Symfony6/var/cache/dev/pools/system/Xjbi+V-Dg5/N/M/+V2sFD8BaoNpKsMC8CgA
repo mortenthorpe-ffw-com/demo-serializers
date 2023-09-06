@@ -1,0 +1,3 @@
+<?php //App%255CFactory%255CSerializTestObjFactory
+
+return [PHP_INT_MAX, []];

@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/core/serializer
+Content-Type: application/json
+
+{
+  "fullName":"Hjalte Illenborg FULLNAME",
+  "birthDateAndTime":"2020-08-23T13:25:45+00:00",
+  "age": 46
+}

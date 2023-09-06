@@ -1,0 +1,3 @@
+<?php //DateTimeImmutable%2523setTime
+
+return [PHP_INT_MAX, []];

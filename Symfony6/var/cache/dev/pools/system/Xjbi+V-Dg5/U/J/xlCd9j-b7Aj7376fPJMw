@@ -1,0 +1,3 @@
+<?php //SerializeTestObj%2524birthDate
+
+return [PHP_INT_MAX, []];

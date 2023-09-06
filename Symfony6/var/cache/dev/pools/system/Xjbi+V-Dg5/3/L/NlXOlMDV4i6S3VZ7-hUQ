@@ -1,0 +1,3 @@
+<?php //DateTimeImmutable%2523createFromMutable
+
+return [PHP_INT_MAX, []];

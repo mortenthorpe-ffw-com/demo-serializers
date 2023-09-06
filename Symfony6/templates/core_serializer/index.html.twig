@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello CoreSerializerController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    <h1>{{ controller_name }}</h1>
+    <div>
+        Input data - Object to array cast:<br/>
+        <code>{{ data | serialize(format = 'json') }}</code><br/>
+        Input data, serialized as JSON:<br/><code>{{ data_assoc_serialized}}</code><br/>
+        Input data, deserialized from serialized:<br/><code>{{ data_assoc_deserialized | serialize(format = 'json') }}</code>
+    </div>
+</div>
+{% endblock %}

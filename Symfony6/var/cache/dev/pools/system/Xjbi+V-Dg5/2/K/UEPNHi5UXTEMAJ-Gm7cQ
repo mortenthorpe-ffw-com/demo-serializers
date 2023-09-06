@@ -1,0 +1,19 @@
+<?php //App%255CResources%255CEntity%255CSerializeTestObj%2523getBirthDate
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Symfony\\Component\\Serializer\\Annotation\\SerializedName'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\Serializer\\Annotation\\SerializedName')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\Serializer\\Annotation\\SerializedName' => [
+            'serializedName' => [
+                'birthDateAndTime',
+            ],
+        ],
+    ],
+    [
+        $o[0],
+    ],
+    []
+); }];
